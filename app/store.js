@@ -1,9 +1,9 @@
-import Value from "./Models/Value.js";
+import Hero from "./Models/Hero.js"
 
 let _state = {
-  activeValue: new Value({ title: "Value" }),
-  /** @type {Value[]} */
-  values: []
+  /**@type {Hero[]} */
+  heroes: [],
+  myHeroes: []
 };
 
 /** Collection of listeners to be called based on keyed state changes
@@ -11,7 +11,8 @@ let _state = {
  */
 let _listeners = {
   activeValue: [],
-  values: []
+  heroes: [],
+  myHeroes: []
 };
 
 //NOTE You should not need to change the code from this point down

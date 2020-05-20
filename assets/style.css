@@ -6,4 +6,40 @@ body {
 
 main {
     flex-grow: 1;
+    background-color: gray;
+}
+
+.title-box{
+    border: 3px solid black;
+    background-color: white
+}
+
+.card{
+    width: 28vh;
+    border: 5px solid black;
+    height: 460px;
+}
+
+.collection{
+    height: 90vh;
+    overflow-y: auto;
+}
+
+.marvel-card{
+    width: 20vh;
+}
+
+.push-down{
+    position: absolute;
+    top: 425px;
+    width: 50%;
+}
+
+.inner-text{
+    overflow-y: auto;
+    height: 15vh;
+}
+
+.half{
+    height: 191.8px;
 }
